@@ -47,7 +47,7 @@ class ClassroomManager
     public void ShowStudents()
     {
         Console.WriteLine($"=== {className} 목록 ({CurrentStudents}/{MaxStudents})===");
-        for (int i = 0; i < studentsNames.Length; i++)
+        for (int i = 0; i < CurrentStudents; i++)
         {
             Console.WriteLine($"{i+1}. {studentsNames[i]}");
         }
